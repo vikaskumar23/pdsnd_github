@@ -137,7 +137,7 @@ def calculate_max_count(df, column_name):
 
     Args:
         (DataFrame) df - dataframe object to calculate max value
-        (str) column_name - name of the column to calculate mode
+        (str) column_name - name of the column to calculate MODE
 
     Returns:
         max value count value for given column name
