@@ -155,12 +155,12 @@ def time_stats(df):
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     month = calculate_mode(df, 'month')
     max_month_value = calculate_max_count(df, 'month')
-    print('Most common month : {}, having Count : {}'.format(months[month - 1].title(), max_month_value))
+    print('Most common Month : {}, having Count : {}'.format(months[month - 1].title(), max_month_value))
 
     # TO DO: display the most common day of week
     weekday = calculate_mode(df, 'day_of_week')
     max_weekday_value = calculate_max_count(df, 'day_of_week')
-    print('Most common weekday : {}, having Count : {}'.format(weekday, max_weekday_value))
+    print('Most common Weekday : {}, having Count : {}'.format(weekday, max_weekday_value))
 
     # extract hour from the Start Time column to create an hour column
     df['hour'] = df['Start Time'].dt.hour
