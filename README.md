@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+April 21,2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Analytics
 
 ### Description
-Describe what your project is about and what it does
+Its a python interactive program that takes input from user and filters the data according to it and then perform statistical analysis.
 
 ### Files used
-Include the files used
+Python Numpy and Pandas Library Used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks Udacity for providing the datasets and help me in learning.
 
