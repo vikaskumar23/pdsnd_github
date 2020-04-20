@@ -5,7 +5,7 @@ April 21,2020
 Bikeshare Descriptive Analytics
 
 ### Description
-Its a python interactive program that takes input from user and filters the data according to it and then perform statistical analysis.
+Its a python interactive program that takes input from user and filters the Bikeshare data according to it  absed on city, month and weekday and then perform statistical analysis.
 
 ### Files used
 Python Numpy and Pandas Library Used
