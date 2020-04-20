@@ -2,7 +2,7 @@
 April 21,2020
 
 ### Project Title
-Bikeshare Analytics
+Bikeshare Descriptive Analytics
 
 ### Description
 Its a python interactive program that takes input from user and filters the data according to it and then perform statistical analysis.
