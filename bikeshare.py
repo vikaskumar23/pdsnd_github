@@ -136,7 +136,7 @@ def calculate_max_count(df, column_name):
     Calculate max value count for the given column_name
 
     Args:
-        (DataFrame) df - dataframe object to calculate max value
+        (DataFrame) df - dataframe object to calculate Max Value
         (str) column_name - name of the column to calculate MODE
 
     Returns:
@@ -155,12 +155,12 @@ def time_stats(df):
     months = ['january', 'february', 'march', 'april', 'may', 'june']
     month = calculate_mode(df, 'month')
     max_month_value = calculate_max_count(df, 'month')
-    print('Most common month : {}, having Count : {}'.format(months[month - 1].title(), max_month_value))
+    print('Most common Month : {}, having Count : {}'.format(months[month - 1].title(), max_month_value))
 
     # TO DO: display the most common day of week
     weekday = calculate_mode(df, 'day_of_week')
     max_weekday_value = calculate_max_count(df, 'day_of_week')
-    print('Most common weekday : {}, having Count : {}'.format(weekday, max_weekday_value))
+    print('Most common Weekday : {}, having Count : {}'.format(weekday, max_weekday_value))
 
     # extract hour from the Start Time column to create an hour column
     df['hour'] = df['Start Time'].dt.hour
@@ -206,7 +206,7 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # TO DO: display total travel time
+    # TO DO: display Total Travel Time
     print('Total Travel Time : {}'.format(df['Trip Duration'].sum()))
     print('Count : {}'.format(df['Trip Duration'].value_counts().sum()))
     # TO DO: display mean travel time
